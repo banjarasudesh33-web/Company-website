@@ -1,0 +1,105 @@
+# Git ignore file for Lalasa Private Ltd website
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.sublime-workspace
+.sublime-project
+*.code-workspace
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Local Server
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Temporary Files
+*.tmp
+*.bak
+*.backup
+.tmp/
+
+# Dependencies (if any)
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IDE-specific files that shouldn't be committed
+.classpath
+.project
+.settings/
+.c9/
+*.iml
+
+# OS specific
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+.fseventsd
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.AppleDouble
+.AppleDB
+.DS_Store
+.CFUserTextEncoding
+
+# Linux
+*~
+.nfs*
+
+# Backup files
+*.backup
+*.old
+*.orig
+
+# Cache files
+.cache/
+.parcel-cache/
+
+# Misc files
+.grunt/
+.sass-cache/
+.jekyll-cache/
